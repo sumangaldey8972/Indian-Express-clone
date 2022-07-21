@@ -1,0 +1,47 @@
+.navbar_container{
+    /* margin-top: 40px; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f1f1f ;
+}
+
+.other_link{
+    /* border: 2px solid green; */
+    display: flex;
+    padding: 6px;
+    gap: 8px;
+    /* display: block; */
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 9px 5px 0;
+    color: #fff;
+    background-color: #1f1f1f ;
+}
+
+.p:hover {
+    color: white;
+    border-bottom: 5x solid red;
+}
+
+.subscribe{
+    /* border: 2px solid white; */
+    padding: 2px 8px 2px 8px;
+    position: relative;
+    /* top: -3px; */
+    border-radius: 13px;
+    background: #ffc300;
+    padding: 2px 13px;
+    border-radius: 15px;
+    color: #000;
+}
+
+.openmodal{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 0px;
+    left: 8px;
+}

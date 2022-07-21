@@ -1,38 +1,70 @@
-.App {
+.top_div{
+  /* border: 2px solid red; */
+  background-color: #d8d8d8;
+}
+
+.div_multilanguage {
+  /* border: 2px solid red; */
+  /* text-align: center; */
+  width: 24%;
+  font-family: sans-serif;
+  margin: auto;
+  background-color: #d8d8d8 ;
+}
+
+.div_multilanguage li {
+  list-style: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.div_multilanguage li:nth-child(1){
+  border-top: 5px solid red;
+}
+
+.follow_icon{
+  width: 32px;
+  height: 32px;
+}
+
+.Followus_div{
+  /* border: 2px solid red; */
+  position: relative;
+  top: 13px;
+  left: 15px;
+  font-weight: bold;
   text-align: center;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainlogo{
+  width: 327px;
+  height: 37px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo_and_follow_sec{
+  /* border: 2px solid orange; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-bottom: 30px;
+  background-color: #efefef ;
 }
 
-.App-link {
-  color: #61dafb;
+.mainLogo_div{
+  /* border: 2px solid red; */
+  position: relative;
+  left: 500px;
+  top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.date_div{
+  /* border: 2px solid green; */
+  text-align: center;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 13px;
 }
+/*End logo css================>>>>>>> */
