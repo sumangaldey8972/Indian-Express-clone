@@ -25,7 +25,7 @@ export const Navbar = () => {
                     <Link to='/' > <p className={style.p}> Audio </p> </Link>
                     <Link to='/' > <p className={style.p}> Education </p> </Link>
                     <Link to='/signin' > <p className={style.p}> Sign in </p> </Link>
-                    <Link to='/' > <p className={style.subscribe} > Subscribe </p> </Link>
+                    <Link to='/subscribe' > <p className={style.subscribe} > Subscribe </p> </Link>
                 </div>
 
                 <div>

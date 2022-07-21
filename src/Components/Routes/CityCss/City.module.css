@@ -1,3 +1,26 @@
+.topimg_div{
+    /* border: 2px solid; */
+    width: fit-content;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.headline_div{
+    /* border: 2px solid red; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+    display: flex;
+    width: 55%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.top_leftdiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-left: 5px;
+}
+
 .top_news_container{
     /* border: 2px solid red; */
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -19,6 +42,7 @@
     overflow: hidden;
 }
 
+
 .topnews_title{
     font-size: 16px;
     font-family: sans-serif;
@@ -30,20 +54,6 @@
 
 .topnews_title:hover{
     color: red;
-}
-
-.city_news_main_div{
-    box-shadow: rgba(115, 140, 158, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    width: 43%;
-    margin: auto;
-    /* display: flex; */
-}
-
-.city_news_div{
-    /* border: 2px solid red; */
-    display: flex;
-    margin-top: 50px;
-    justify-content: space-between;
 }
 
 .latest_news_container{

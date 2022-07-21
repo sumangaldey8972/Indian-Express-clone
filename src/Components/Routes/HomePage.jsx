@@ -3,6 +3,8 @@ import { useEffect, useState } from "react"
 import Advertisement from "./AdvertisementCarousel"
 import style from "./Homepage.module.css";
 import axios from "axios"
+import { CarouselAd } from "./carousel2";
+
 
 
 // let headlineApi = "https://newsapi.org/v2/top-headlines?country=us"
@@ -11,11 +13,24 @@ export const HomePage = () => {
 
     const [news, setNews] = useState([]);
     const [loading, setLoading] = useState(false)
-    const [city, setCity] = useState(["kolkata"]);
+    // const [city, setCity] = useState([]);
+    const [latest, setLatest] = useState([]);
+
+    useEffect(() => {
+        axios.get("http://api.mediastack.com/v1/news?access_key=23aed4c16b72c739a2b563ba00ccec24&countries=in")
+            .then((res) => {
+                console.log(res.data.data)
+                setLatest(res.data.data)
+            })
+            .catch((err) => {
+                console.log(err);
+            })
+    }, [])
 
     const handleCityChange = (e) => {
         setCity(e.target.value)
     }
+    // console.log(city)
 
     useEffect(() => {
         setLoading(true)
@@ -56,33 +71,68 @@ export const HomePage = () => {
                 </div>
             </div>
 
-            <div className={style.city_news_main_div} >
-                <div className={style.city_news_div} >
-                    <Heading fontSize="26px" > {city ? city : "Kolkata"} News <i style={{ color: "red", fontSize: "20px", fontWeight: "bold" }} class="fa-solid fa-chevron-right"></i> </Heading>
+            {/* {city news} */}
+            <div>
+                <div className={style.city_news_main_div} >
+                    <div className={style.city_news_div} >
+                        <Heading fontSize="26px" > {city} News <i style={{ color: "red", fontSize: "20px", fontWeight: "bold" }} class="fa-solid fa-chevron-right"></i> </Heading>
 
-                    <Select width="20%" outline="none" border="1px solid black" borderColor="black" onChange={(e) => handleCityChange(e)}  colorScheme="blackAlpha" borderRadius="none">
-                        <option value='Kolkata'>Kolkata</option>
-                        <option value='Mumbai'>Mumbai</option>
-                        <option value='Pune'>Pune</option>
-                        <option value='Delhi'>Delhi</option>
-                        <option value='Chandigarh'>Chandigarh</option>
-                        <option value='Ahemedabad'>Ahemedabad</option>
-                        <option value='Lucknow'>Lucknow</option>
-                        <option value='Hydrabad'>Hydrabad</option>
-                        <option value='Bangalore'>Bangalore</option>
-                    </Select>
-                </div>
-
-                <div>
-                    <div>
-                        
+                        <Select placeholder="News" width="20%" outline="none" border="1px solid black" borderColor="black" onChange={(e) => handleCityChange(e)} colorScheme="blackAlpha" borderRadius="none">
+                            <option value='kolkata'>Kolkata</option>
+                            <option value='mumbai'>Mumbai</option>
+                            <option value='pune'>Pune</option>
+                            <option value='delhi'>Delhi</option>
+                            <option value='chandigarh'>Chandigarh</option>
+                            <option value='ahemedabad'>Ahemedabad</option>
+                            <option value='lucknow'>Lucknow</option>
+                            <option value='hydrabad'>Hydrabad</option>
+                            <option value='bangalore'>Bangalore</option>
+                        </Select>
                     </div>
 
                     <div>
+                        <div>
+                            {/* {
+                                city.map((el) => (
+                                    <p className={style.topnews_title} key={el.id} > {el.title} </p>
+                                ))
+                            } */}
+                        </div>
 
+                        <div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div style={{ position: "relative", top: "-500px", left: "1150px" }} >
+                <CarouselAd />
+            </div>
+
+
+
+            <div className={style.latest_news_container}>
+                <div>
+                    {
+                        latest.map((el) => (
+                            <p className={style.latest_news_description} > {el.description} </p>
+                        ))
+                    }
+                </div>
+                <div className={style.lates_left_div} >
+                    <Heading fontSize="17px" > LATEST NEWS <i style={{ color: "red" }} class="fa-solid fa-chevron-right"></i> </Heading>
+                    <div>
+                        {
+                            latest.map((el) => (
+                                <p className={style.topnews_title} > {el.title} </p>
+                            ))
+                        }
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }
