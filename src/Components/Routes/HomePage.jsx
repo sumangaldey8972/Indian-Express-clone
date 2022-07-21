@@ -5,8 +5,8 @@ import style from "./Homepage.module.css";
 import axios from "axios"
 
 
-let headlineApi = "https://newsapi.org/v2/top-headlines?country=us"
-let apiKey = "9307defbbd894900a298bfe0d30f73eb"
+// let headlineApi = "https://newsapi.org/v2/top-headlines?country=us"
+// let apiKey = "9307defbbd894900a298bfe0d30f73eb"
 export const HomePage = () => {
 
     const [news, setNews] = useState([]);
