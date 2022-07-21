@@ -20,45 +20,41 @@ export const CarouselAd = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://images.indianexpress.com/2022/03/block-sos-1-yashee-1200.jpg?resize=450%2C250&w=300"
+                            src="https://images.indianexpress.com/2022/06/dhamrad-1200.jpg?resize=450%2C250&w=300"
                             alt="First slide"
                         />
                         <p className={style.sliderCaption}>
-                            Chip off an ancient block: How a Bagru artisan family stamped
-                            out Covid blues
+                            In this Gujarat district, 'smart' anganwadis are boosting child healthcare post Covid
                         </p>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://images.indianexpress.com/2022/05/SOS.jpg?resize=450%2C250&w=300"
+                            src="https://images.indianexpress.com/2022/06/IMG-20220618-WA0128.jpg?resize=450%2C250&w=300"
                             alt="Second slide"
                         />
                         <p className={style.sliderCaption}>
-                            How a tribal woman helped her community in a Chhattisgarh
-                            village during Covid-19
+                            Backed by self-help groups, women in Bharuch learn to stand on their feet
                         </p>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://images.indianexpress.com/2022/05/Johanna-North.jpg?resize=450%2C250&w=300"
+                            src="https://images.indianexpress.com/2022/07/masks-1200.jpg?resize=450%2C250&w=300"
                             alt="Third slide"
                         />
                         <p className={style.sliderCaption}>
-                            From Helsinki to Payyanur, with a pandemic-induced detour into
-                            vlogging
+                            How Bihar’s artists rode out the Covid crisis with tech & tradition
                         </p>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://images.indianexpress.com/2022/05/Dr-Champaneria-1200.jpeg?resize=450%2C250&w=300"
+                            src="https://images.indianexpress.com/2022/07/rahel-final-sos-1200-1.jpeg?resize=450%2C250&w=300"
                             alt="Fourth slide"
                         />
                         <p className={style.sliderCaption}>
-                            Meet Dr Bharat Champaneria, bringing healthcare and
-                            nutritional awareness to rural Gujarat for over 40 years
+                        In post-pandemic world, homegrown saree brands weave stories on social media
                         </p>
                     </Carousel.Item>
                 </Carousel>
