@@ -27,9 +27,9 @@ export const HomePage = () => {
             })
     }, [])
 
-    const handleCityChange = (e) => {
-        setCity(e.target.value)
-    }
+    // const handleCityChange = (e) => {
+    //     setCity(e.target.value)
+    // }
     // console.log(city)
 
     useEffect(() => {
@@ -75,9 +75,9 @@ export const HomePage = () => {
             <div>
                 <div className={style.city_news_main_div} >
                     <div className={style.city_news_div} >
-                        <Heading fontSize="26px" > {city} News <i style={{ color: "red", fontSize: "20px", fontWeight: "bold" }} class="fa-solid fa-chevron-right"></i> </Heading>
+                        {/* <Heading fontSize="26px" > {city} News <i style={{ color: "red", fontSize: "20px", fontWeight: "bold" }} class="fa-solid fa-chevron-right"></i> </Heading> */}
 
-                        <Select placeholder="News" width="20%" outline="none" border="1px solid black" borderColor="black" onChange={(e) => handleCityChange(e)} colorScheme="blackAlpha" borderRadius="none">
+                        {/* <Select placeholder="News" width="20%" outline="none" border="1px solid black" borderColor="black" onChange={(e) => handleCityChange(e)} colorScheme="blackAlpha" borderRadius="none">
                             <option value='kolkata'>Kolkata</option>
                             <option value='mumbai'>Mumbai</option>
                             <option value='pune'>Pune</option>
@@ -87,7 +87,7 @@ export const HomePage = () => {
                             <option value='lucknow'>Lucknow</option>
                             <option value='hydrabad'>Hydrabad</option>
                             <option value='bangalore'>Bangalore</option>
-                        </Select>
+                        </Select> */}
                     </div>
 
                     <div>
