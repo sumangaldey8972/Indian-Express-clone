@@ -1,0 +1,34 @@
+.right {
+    width: 22%;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .right > div {
+    border: 3px solid grey;
+  }
+  
+  .logo {
+    width: 65%;
+    margin: auto;
+    margin-top: 7px;
+  }
+  
+  .sliderCaption {
+    text-align: center;
+    font-size: 13px;
+    padding: 5px;
+    font-weight: 800;
+  }
+  
+  .readMore {
+    color: white;
+    border-radius: 20px;
+    background-color: red;
+    width: 60%;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }

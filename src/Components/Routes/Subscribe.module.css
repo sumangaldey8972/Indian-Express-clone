@@ -1,0 +1,40 @@
+.Heading_div{
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 70px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.card_container{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 35px;
+    width: 60%;
+    height: 350px;
+    margin: auto;
+}
+
+.card_container > div{
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.card_container > div > div > h2{
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center ;
+}
+
+.card_container > div > div > p{ 
+    text-align: center;
+    line-height: 30px;
+}
+
