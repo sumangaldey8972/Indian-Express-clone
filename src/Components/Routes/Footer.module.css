@@ -1,0 +1,92 @@
+.footer_maincontainer{
+    /* border: 1px solid  red; */
+    background-color:#01040d;
+    color:#d4d5d6 ;
+    text-align: start;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.upperDiv > div{
+    border-top: 1px solid rgb(108, 106, 106);
+    gap: 10%;
+    width: 70%;
+    margin: auto;
+    text-align: start;
+    line-height: 40px;
+    list-style: none;
+    margin-bottom: 28px;
+}
+
+.upperDiv > div > ul{
+    margin-left: 20px;
+}
+
+.SecondDiv{
+    border-top: 1px solid rgb(108, 106, 106);
+    display: flex;
+    width: 70%;
+    margin: auto;
+    gap: 6%;
+    line-height: 40px;
+}
+
+.SecondDiv > ul{
+    margin-left: 20px;
+}
+
+.thirdDiv{
+    border-top: 1px solid rgb(108, 106, 106);
+    border-bottom: 1px solid rgb(108, 106, 106);
+    padding-bottom: 40px;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    gap: 6%;
+}
+
+.thirdDiv > ul{
+    margin-left: 20px;
+    margin-top:10px;
+}
+
+.thirdDiv > ul > li{
+    margin-bottom: 10px;
+}
+
+.socialMediaicons{
+    border: 1px solid white;
+    display: flex;
+}
+
+.bottomFooterContainer{
+    /* border: 1px solid rgb(212, 31, 31); */
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    width: 70%;
+    gap: 30px;
+}
+
+.bottomleftdiv{
+    /* border: 1px solid yellow; */
+    width: 30%;
+}
+
+.middiv > div > ul > li{
+    list-style: none;
+}
+
+.middiv > div > ul{
+    line-height: 30px;
+}
+
+.copyrightdiv{
+    border-top: 2px solid rgb(108, 106, 106);
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
