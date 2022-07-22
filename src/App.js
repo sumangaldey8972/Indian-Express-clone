@@ -5,7 +5,7 @@ import { HomePage } from './Components/Routes/HomePage';
 import { CityNews } from './Components/Routes/City';
 import { Subscribe } from './Components/Routes/Subscribe';
 import Signin from './Components/Routes/SignIn';
-
+import { Footer } from "./Components/Routes/Footer"
 function App() {
   return (
     <div className="App">
@@ -16,6 +16,7 @@ function App() {
           <Route path='/subscribe' element={ <Subscribe/> }/>
           <Route path='/signin' element={ <Signin/> }/>
       </Routes>
+      <Footer/>
     </div>
   );
 }
