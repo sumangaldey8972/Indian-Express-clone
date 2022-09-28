@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+<h1> "Indian Express"  </h1>
+<img src="https://raw.githubusercontent.com/sumangaldey8972/my-repository/main/Indian%20Express%20home%20page%20original.png" width="400" height="200">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 style="color:Tomato;">About</h2>
 
-## Available Scripts
+<h3 >For over 75 years, The Indian Express has been read by those who have their own unique point of view of looking at things. With coverage based on comprehensive analysis, and with fearless reporting, we empower our readers with the truth behind every matter. We go the whole length to get to the crux of every issue.</h3>
 
-In the project directory, you can run:
 
-### `npm start`
+*Original website link* : https://indianexpress.com/
+ <br/>
+ Link of My deployed project : https://peppy-lebkuchen-856bfa.netlify.app/
+ 
+ <br/>
+ 
+ 
+## Tech Stack and features
+- React
+- Chakra UI
+- API
+- Github
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Glimpse and screenshots of our cloned website:
+*Landing Page*
+![Landing](https://raw.githubusercontent.com/sumangaldey8972/my-repository/main/ie%20homepage.png) <br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*Sign In Page*
+![explorenow](https://raw.githubusercontent.com/sumangaldey8972/my-repository/main/ie%20signup.png) <br/>
 
-### `npm run build`
+*News Page*
+![new_arrival](https://raw.githubusercontent.com/sumangaldey8972/my-repository/main/ie%20page.png) <br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*Subscription Page*
+![cart Page](https://raw.githubusercontent.com/sumangaldey8972/my-repository/main/ie%20subscription.png) <br/>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br/><br/><br/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h3 style="color:Tomato;">
+    build this website clone during construct week in just 3 days. 
+    Most focused on UI part.
+</h3>
+<br/> <br/>
+<h2 style="color:Tomato;">
+    To Connect with me in linkedin visit On - : https://github.com/sumangaldey8972
+</h2>
